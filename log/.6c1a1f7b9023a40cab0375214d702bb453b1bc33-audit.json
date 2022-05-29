@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "log/.6c1a1f7b9023a40cab0375214d702bb453b1bc33-audit.json",
+    "files": [
+        {
+            "date": 1653579818518,
+            "name": "log/2022-05-27-smart-push.log",
+            "hash": "2e2da095c95be2176061d1d031abdacb"
+        },
+        {
+            "date": 1653833048642,
+            "name": "log/2022-05-29-smart-push.log",
+            "hash": "1f19b44c6bfafbd14f4c77bc2bc54c40"
+        }
+    ],
+    "hashType": "md5"
+}
