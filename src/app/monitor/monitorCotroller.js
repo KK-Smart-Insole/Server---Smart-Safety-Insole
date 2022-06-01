@@ -34,3 +34,23 @@ exports.getUserActive = async function (req, res){
 
     return res.send(response.response(baseResponse.SUCCESS, getDeviceActiveResponse));
 }
+
+exports.postUserEmergency = async function (req, res){
+    const deviceId = req.body;
+
+    const getSendSMSmsgResponse = await monitorService.sendSMSmsg(
+        deviceId
+    );
+
+    return res.send(response.response(baseResponse.SUCCESS, getSendSMSmsgResponse));
+}
+
+exports.postLastCall = async function (req, res){
+    const deviceId = req.body;
+
+    const getSendSMSmsgResponse = await monitorService.sendLastCallSMSmsg(
+        deviceId
+    );
+
+    return res.send(response.response(baseResponse.SUCCESS, getSendSMSmsgResponse));
+}
