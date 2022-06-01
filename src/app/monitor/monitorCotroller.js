@@ -23,8 +23,8 @@ exports.postUserActive = async function (req, res){
 }
 
 exports.getUserActive = async function (req, res){
-    const deviceId = req.body;
-
+    const deviceId = req.params.deviceId;
+ 
     if(!deviceId)
         return res.send(response.response(baseResponse.DEVICE_EMPTY_ID));
 
