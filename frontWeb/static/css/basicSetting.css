@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.topBar{
+    width: 100vw;
+    height: 8vh;
+
+    background-color: aliceblue;
+}
+
+.mainScreen{
+    width: 100vw;
+    height: 70vh;
+}
+
+.bottomNav{
+    width: 100vw;
+    height: 8vh;
+}
+
+#mainLogo{
+    width: 120px;
+    height: 100%;
+    float: left;
+    background-image: url(../images/MainLogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#userInfo{
+    width: 160px;
+    height: 100%;
+    float: right;
+}
+
+.profile-user-img-area{
+    float: left;
+    padding-top: 10px;
+}
+
+.profile-user-img{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 70%;
+    overflow: hidden; 
+}
+
+.profile-user-img-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.profile-user-info-area{
+    float: left;
+    width: 100px;
+    height: 100%;
+}
+
+.profile-user-info{
+    margin-left: 5px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}

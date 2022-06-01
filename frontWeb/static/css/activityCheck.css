@@ -1,0 +1,168 @@
+.nav-content-1{
+    float: left;
+    height: 100%;
+    width: 15vw;
+
+    cursor: pointer;
+
+    margin-left: 15vw;
+
+    background-image: url(../images/icons/icon_home.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-content-2{
+    float: left;
+    height: 100%;
+    width: 15vw;
+
+    margin-left: 2.5vw;
+
+    cursor: pointer;
+
+    background-image: url(../images/icons/icon_activity_colored.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-content-3{
+    float: left;
+    height: 100%;
+    width: 15vw;
+
+    margin-left: 2.5vw;
+
+    cursor: pointer;
+
+    background-image: url(../images/icons/icon_location.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-content-4{
+    float: left;
+    height: 100%;
+    width: 15vw;
+
+    margin-left: 2.5vw;
+
+    cursor: pointer;
+
+    background-image: url(../images/icons/icon_profile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.walk-count-area{
+    width: 80vw;
+    height: 23vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 4vh;
+
+    border-radius: 25px;
+
+    background-color: rgb(66, 73, 132);
+}
+
+#walk-count-title{
+    width: 100%;
+    height: 10%;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+
+    color: white;
+}
+
+#walk-count-circle{
+    width: 100%;
+    height: 70%;
+}
+
+.clearfix{
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+#walk-count-result{
+    width: 100%;
+    height: 10%;
+    margin-left: 25%;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+.activity-time-result-area{
+    width: 80vw;
+    height: 17vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vh;
+
+    border-radius: 25px;
+
+    box-shadow: 3px 3px 3px 3px gray;
+
+    background-color: rgb(253, 253, 253);
+}
+
+#activity-result-title{
+    width: 100%;
+    height: 15%;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+
+    color: black;
+}
+
+#activity-result-main{
+    width: 100%;
+    height: 40%;
+    margin-top: 5%;
+}
+
+#activity-original-result{
+    float: left;
+    margin-left: 15px;
+}
+
+#activity-objective-result{
+    float: left;
+    margin-left: 2vw;
+}
+
+#activity-calorie-result{
+    width: 100%;
+    height: 10%;
+    margin-left: 15px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.activity-bar-plot-area{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vh;
+
+    border-radius: 25px;
+
+    box-shadow: 3px 3px 3px 3px gray;
+
+    background-color: rgb(253, 253, 253);
+}

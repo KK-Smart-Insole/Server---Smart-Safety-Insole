@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./css/basicSetting.css">
+    <link rel="stylesheet" href="./css/activityCheck.css">
+    <link rel="stylesheet" href="./css/css-circle/css/circle.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <title>깔창깔조</title>
+</head>
+<body>
+    <div class="topBar">
+        <div id="mainLogo"></div>
+        <div id="userInfo">
+            <div class="profile-user-img-area">
+                <div class="profile-user-img"> 
+                    <img src="./images/default_photo.png" alt="profile-user-img" class="profile-user-img-img"> 
+                </div>
+            </div>
+            <div class="profile-user-info-area">
+                <div class="profile-user-info">
+                   항공대 님
+                </div>
+            </div>
+
+        </div>         
+    </div>
+    <div class="mainScreen">
+        <div class="walk-count-area">
+            <div id="walk-count-title">걸음수</div>
+            <div id="walk-count-circle">
+                <div class="clearfix" id="set-daily-walk-count">   
+                    <!-- <div class="c100 p0">
+                        <span>0%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div id="walk-count-result">
+                측정중...
+            </div>
+        </div>
+
+        <div class="activity-time-result-area">
+            <div id="activity-result-title">활동 시간</div>
+            <div id="activity-result-main">
+                <div id="activity-original-result"> <h2 class="subtitle is-2"><div id="get-daily-activity-minute">측정중</div></h2> </div>
+                <div id="activity-objective-result"><h3 class="subtitle is-3">  /100분</h2></div>
+            </div>
+            <div id="activity-calorie-result">
+                측정중
+            </div>
+        </div>
+        <div class="activity-bar-plot-area">
+            <canvas id="myChart" style="height: 80%; margin-top: 2px;"></canvas>
+        </div>
+    </div>
+    <div class="bottomNav">
+        <div class="nav-content-1" onclick="location.href='http://52.79.239.114:8080/'"></div>
+        <div class="nav-content-2" onclick="location.href='http://52.79.239.114:8080/activity'"></div>
+        <div class="nav-content-3" onclick="location.href='http://52.79.239.114:8080/location'"></div>
+        <div class="nav-content-4" onclick="location.href='http://52.79.239.114:8080/user'"></div>
+    </div>
+</body>
+<script src="./js/activityCheck.js"></script>
+</html>

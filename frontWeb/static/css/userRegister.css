@@ -1,0 +1,77 @@
+.nav-content-1{
+    float: left;
+    height: 100%;
+    width: 15vw;
+
+    cursor: pointer;
+
+    margin-left: 15vw;
+
+    background-image: url(../images/icons/icon_home.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-content-2{
+    float: left;
+    height: 100%;
+    width: 15vw;
+
+    margin-left: 2.5vw;
+
+    cursor: pointer;
+
+    background-image: url(../images/icons/icon_activity.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-content-3{
+    float: left;
+    height: 100%;
+    width: 15vw;
+
+    margin-left: 2.5vw;
+
+    cursor: pointer;
+
+    background-image: url(../images/icons/icon_location.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-content-4{
+    float: left;
+    height: 100%;
+    width: 15vw;
+
+    margin-left: 2.5vw;
+
+    cursor: pointer;
+
+    background-image: url(../images/icons/icon_profile_colored.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.signup-main-pic{
+    width: 40vw;
+    height: 40vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 5vh;
+
+    background-image: url(../images/icons/icon_profile_pic.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.signup-information-input-area{
+    width: 80vw;
+    margin-left: 10vw;
+}

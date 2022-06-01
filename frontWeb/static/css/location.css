@@ -1,0 +1,59 @@
+.nav-content-1{
+    float: left;
+    height: 100%;
+    width: 15vw;
+
+    cursor: pointer;
+
+    margin-left: 15vw;
+
+    background-image: url(../images/icons/icon_home.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-content-2{
+    float: left;
+    height: 100%;
+    width: 15vw;
+
+    margin-left: 2.5vw;
+
+    cursor: pointer;
+
+    background-image: url(../images/icons/icon_activity.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-content-3{
+    float: left;
+    height: 100%;
+    width: 15vw;
+
+    margin-left: 2.5vw;
+
+    cursor: pointer;
+
+    background-image: url(../images/icons/icon_location_color.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-content-4{
+    float: left;
+    height: 100%;
+    width: 15vw;
+
+    margin-left: 2.5vw;
+
+    cursor: pointer;
+
+    background-image: url(../images/icons/icon_profile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

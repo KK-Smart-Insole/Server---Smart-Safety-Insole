@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=db2d64bdab6390ac34d8b7d4f528b9f0"></script>
+    <link rel="stylesheet" href="./css/location.css">
+    <link rel="stylesheet" href="./css/basicSetting.css">
+    <title>깔창깔조</title>
+</head>
+<body>
+    <div class="topBar">
+        <div id="mainLogo"></div>
+        <div id="userInfo">
+            <div class="profile-user-img-area">
+                <div class="profile-user-img"> 
+                    <img src="./images/default_photo.png" alt="profile-user-img" class="profile-user-img-img"> 
+                </div>
+            </div>
+            <div class="profile-user-info-area">
+                <div class="profile-user-info">
+                   항공대 님
+                </div>
+            </div>
+        </div>         
+    </div>
+    <div class="mainScreen">
+        <div id="map" style="width:100%; height:98%;"></div>
+    </div>
+    <div class="bottomNav">
+        <div class="nav-content-1" onclick="location.href='http://52.79.239.114:8080/'"></div>
+        <div class="nav-content-2" onclick="location.href='http://52.79.239.114:8080/activity'"></div>
+        <div class="nav-content-3" onclick="location.href='http://52.79.239.114:8080/location'"></div>
+        <div class="nav-content-4" onclick="location.href='http://52.79.239.114:8080/user'"></div>
+    </div>
+</body>
+<script src="./js/location.js"></script>
+</html>
