@@ -1,5 +1,6 @@
 var date = new Date();
-var today = String(date.getFullYear()) + '-0' + String(date.getMonth()+1) + '-0' + String(date.getDay()-3)
+var today = String(date.getFullYear()) + '-0' + String(date.getMonth()+1) + '-0' + String(date.getDay()-2)
+console.log(today)
 
 var walkCount=0;
 var activityMinuteCount = 0;
@@ -25,8 +26,8 @@ async function request() {
   }
   //그래프 만들기
   var html='';
-  html += '<div class="c100 p' + walkCount/10000*100 + '">'
-  html += '<span>' + walkCount/10000*100 + '%</span>'
+  html += '<div class="c100 p' + Math.floor(walkCount/10000*100) + '">'
+  html += '<span>' + Math.floor(walkCount/10000*100) + '%</span>'
   html += '<div class="slice">'
   html += '<div class="bar"></div>'
   html += '<div class="fill"></div>'
@@ -36,7 +37,7 @@ async function request() {
   document.getElementById("walk-count-result").innerHTML = walkCount + ' / 10000 걸음';
   
   //바 그래프 만들기
-  var xValues = ["5/27", "5/28", "5/29", "5/30", "5/31", "6/1", "6/2"];
+  var xValues = [ "5/28", "5/29", "5/30", "5/31", "6/1", "6/2", "6/3"];
   var yValues = [750, 1250, 5670, 860, 7454, 10034, walkCount];
   var barColors = ["gray", "gray", "gray", "gray", "gray", "gray", "orange"];
 
@@ -61,7 +62,7 @@ async function request() {
   //활동시간 표시하기
   document.getElementById("get-daily-activity-minute").innerHTML = activityMinuteCount;
   //사용 칼로리 표시하기
-  document.getElementById("activity-calorie-result").innerHTML = 0.03 * walkCount + ' 칼로리 소모';
+  document.getElementById("activity-calorie-result").innerHTML = Math.floor(0.03 * walkCount) + ' 칼로리 소모';
 }
 
 request();
